@@ -1,0 +1,27 @@
+button{
+    width: 100%;
+    border: none;
+    background-color: rgba(84, 192, 126, 0.438);
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 0.3rem dotted black;
+}
+input{
+    align-items: end;
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

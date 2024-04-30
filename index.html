@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section>
+        <form id="datos" onsubmit="onSubmitOperation(event)">
+
+            <div>
+                <label for="num1">Primer Valor:</label>
+                <input id="num1" name="num1" type="number">
+            </div>
+            <div>
+                <fieldset>
+                    <input type="radio" name="operation" id="suma" value="sum">
+                    <label for="suma">SUMA</label>
+                    <input type="radio" name="operation" id="resta" value="resta">
+                    <label for="resta">RESTA</label>
+                    <input type="radio" name="operation" id="mult" value="mult">
+                    <label for="mult">MULTIPLICACION</label>
+                    <input type="radio" name="operation" id="div" value="div">
+                    <label for="div">DIVICION</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="num2">Segundo Valor:</label>
+                <input id="num2" name="num2" type="number">
+            </div>
+            <div>
+                <label for="res">RESULTADO:</label>
+                <p id="resultado"></p>
+            </div>
+            <div >
+                <button type="submit" >Calcular</button>
+            </div>
+        </form>
+    </section>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
